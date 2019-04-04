@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
+import selectCity from '../actions/index';
+
 const City = (props) => {
   return (
     <li
