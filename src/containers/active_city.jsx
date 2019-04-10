@@ -16,7 +16,7 @@ const ActiveCity = (props) => {
     <div className="active-city">
       <h3>{props.activeCity.name}</h3>
       <p>{props.activeCity.address}</p>
-      <img src="url" width="100%" />
+      <img src={url} width="100%" />
     </div>
   );
 };
